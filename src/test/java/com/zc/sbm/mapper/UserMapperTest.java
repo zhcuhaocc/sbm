@@ -17,7 +17,6 @@ public class UserMapperTest {
 
     @Test
     public void findById() {
-        int i=1;
         User user=mapper.findById(1);
         Assert.assertNotNull(user);
 
